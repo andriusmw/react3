@@ -237,7 +237,13 @@ function App() {
 					<a  href="moviegrid.html" className="grid"><i className="ion-grid"></i></a>
 				</div>
 			
-        <Pelicula  titulo="Oblivion (2012)" calificacion="8.1" />
+        <Pelicula  titulo="Oblivion (2012)" calificacion="8.1" 
+		director="Joss Whedon" actores="Robert Downey Jr.,Chris Evans,Chris Hemsworth" 
+		fecha="1 May 2015" duracion="2h 21min">
+				Earth's mightiest heroes must come together and learn to fight as a team 
+				if they are to stop the mischievous Loki and his alien army from enslaving humanity...
+
+		</Pelicula>	
 
 	
 
