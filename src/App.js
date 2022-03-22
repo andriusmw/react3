@@ -237,7 +237,9 @@ function App() {
 					<a  href="moviegrid.html" className="grid"><i className="ion-grid"></i></a>
 				</div>
 			
-        <Pelicula />
+        <Pelicula  titulo="Oblivion (2012)" calificacion="8.1" />
+
+	
 
 				<div className="movie-item-style-2">
 					<img src="images/uploads/mv2.jpg" alt=""/>
