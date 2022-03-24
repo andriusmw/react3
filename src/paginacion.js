@@ -6,11 +6,12 @@ export default function Paginacion(props) {
 
     const getPaginas = () => {
         const resultado = [];
-        for (var i =0; i < props.total; i++){
+        for (let i =0; i < props.total; i++){
+            let pagina = i +1;
          resultado.push( 
-                <a onClick={props.onChange} 
-                className={props.pagina === (i + 1) ? "active" :  ""}
-                 href="#"> {(i + 1)} </a>)
+                <a onClick={() => props.onChange(pagina)}
+                className={props.pagina === pagina ? "active" :  ""}
+              /*  href="#"*/> {pagina} </a>)
             }
         return resultado;
     }
