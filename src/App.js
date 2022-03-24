@@ -2,31 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Pelicula from './pelicula';
 import PageWrapper from './PageWrapper';
+import PeliculasJson from './peliculas.json';
+//Este es el array previo de películas desde donde cargamos el listado
+//de pelis con la estructura del objeto película para cada elemento del 
+//array y asi podemos pedirle el título, fecha etc de cada objeto(pelicula)
 
 function App() {
 
-	let peliculas =[
-		{
-			titulo:"Oblivion (2012)",
-			calificacion:"8.1",
-			director:"Joss Whedon",
-			actores:"Robert Downey Jr.,Chris Evans,Chris Hemsworth" ,
-			fecha:"1 May 2015",
-			duracion:"2h 21min",  
-			img:"images/uploads/mv1.jpg",
-			descripcion:"Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...",
-		},
-		{
-			titulo:"Into the Wild 2014",
-			calificacion:"7.8",
-			director:"Joss Whedon",
-			actores:"Robert Downey Jr.,Chris Evans,Chris Hemsworth" ,
-			fecha:"1 May 2015",
-			duracion:"2h 21min",  
-			img:"images/uploads/mv2.jpg",
-			descripcion:"Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...",
-		}
-	]
+	let peliculas = PeliculasJson;
   
   return (
 
