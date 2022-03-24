@@ -30,7 +30,9 @@ function App() {
            			    </Pelicula>	
 		    })}	
 
-			<Paginacion ></Paginacion>
+			<Paginacion pagina={2} total={4} onChange={(pagina) =>
+				alert(pagina)
+			} ></Paginacion>
 			
 
 	</PageWrapper>
